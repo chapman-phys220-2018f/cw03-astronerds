@@ -1,6 +1,6 @@
 
 
-[![Build Status](94.52s$ git clone --depth=50 --branch=master https://github.com/chapman-phys220-2018f/cw03-astronerds.git chapman-)
+[![Build Status](https://travis-ci.com/chapman-phys220-2018f/cw03-astronerds.svg?branch=master)](https://travis-ci.com/chapman-phys220-2018f/cw03-astronerds)
 
 # PHYS220/MATH220/CPSC220 CW 3
 
