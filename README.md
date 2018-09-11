@@ -4,7 +4,7 @@
 
 # PHYS220/MATH220/CPSC220 CW 3
 
-**Author(s):** * Gabriella and Alley**
+**Author(s):** **Gabriella and Alley**
 
 ## Specification
 
