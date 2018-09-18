@@ -9,13 +9,23 @@
 # Assignment: CW 3.3
 ###
 
-import sys
-
-n = int(sys.argv[1])
-
+#definition
 def fibonacci(n):
-    if n == 0: return 0
-    elif n == 1: return 1
-    else: return (fibonacci(n-1)+fibonacci(n-2))
+    lst = [1,1]
+    if n == 0:
+        return [0]
+    if n == 1:
+        return [1]
+    for i in range(2,n):
+        lst.append(lst[i - 1]+lst[i - 2])
+    return lst
 
-print(fibonacci(n))
+#program
+def main(argv):
+    n = int(argv[1])
+    print(fibonacci(n))
+
+#protects code
+if __name__ == "__main__":
+    import sys
+    main(sys.argv)
